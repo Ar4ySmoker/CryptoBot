@@ -1,19 +1,18 @@
 import { useEffect } from 'react'
 
 import './App.css'
+import { Header } from './comonents/Header/Header';
+
+// @ts-ignore
+export const tg = window?.Telegram?.WebApp;
 
 function App() {
-useEffect(() => {
-  //@ts-ignore
-  const tg = window?.Telegram?.WebApp;
-//  tg.initData();
-console.log(tg);
 
-}, [])
-
+console.log("telegram", tg);
   return (
     <>
-   <h1>Привет CryptoBot</h1>
+    <Header />
+   <h1 className='text-blue-500'>CryptoBot</h1>
     </>
   )
 }

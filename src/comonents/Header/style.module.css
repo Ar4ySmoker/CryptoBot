@@ -1,12 +1,12 @@
 .header {
-  background-color: #FFFFFF;
+  background-color: var(--white-color);
   display: flex;
   justify-content: space-between;
   padding: 16px;
   align-items: center;
 }
 .header > div > p{
-    color: #007AFF;
+    color: var(--primary-color);
     font-family: SF Pro Text;
     font-size: 17px;
     font-weight: 400;
@@ -19,7 +19,7 @@
 .h1{
 display: flex;
 flex-direction: column;
-color: #000000;
+color: var(--black-color);
 font-family: SF Pro Text;
 font-size: 17px;
 font-weight: 600;
@@ -28,14 +28,21 @@ letter-spacing: -0.4300000071525574px;
 text-align: center;
 }
 .h1 > span:first-child{
-   color: #000000;
-    font-family: SF Pro Text;
+   color: var(--black-color);
     font-size: 17px;
     font-weight: 600;
     line-height: 22px;
     letter-spacing: -0.4300000071525574px;
     text-align: center;
     
+  }
+  .h1 > span {
+    color: var(--label-secondary-color);
+    font-size: var(--font-size-xs);
+    font-weight: var(--font-weight-xs);
+    line-height: var(--line-height-xs);
+    letter-spacing: var( --letter-spacing-xs);
+    text-align: center;
   }
 .h1 > span{
   color: #8E8E93;

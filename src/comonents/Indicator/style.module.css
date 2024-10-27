@@ -1,0 +1,10 @@
+.indicator{
+    width: 393px;
+height: 34px;
+padding: 21px 126px 8px 127px;
+gap: 0px;
+opacity: 0px;
+display: flex;
+justify-content: center;
+background-color: var(--bg-tab-color);
+}

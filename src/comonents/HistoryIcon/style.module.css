@@ -1,0 +1,33 @@
+.historyIcon{
+    display: flex;
+justify-content: center;    
+align-items: center;
+position: relative; 
+    margin: 5px;
+    background-color: var(--bg-tab-color);
+    border-radius: 12px;
+    width: 40px;
+    height: 40px;   
+}
+.historyIcon > img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   margin: auto;
+    width: 32px;
+    height: 32px;
+}
+.bagdage{
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: -2px;
+    right: -2px;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+    width: 16px;
+    height: 16px;
+    border: 1px solid var(--white-color);
+}

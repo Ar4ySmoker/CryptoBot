@@ -1,0 +1,29 @@
+.tabBar{
+    background-color: var(--bg-tab-color);
+    display: flex;
+    align-items: center;
+    width: max-content;
+}
+.item{
+width: 98.25px;
+height: 50px;
+padding: 4px 0px 0px 0px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+.item p{
+    width: 90.25px;
+    height: 12px;
+    top: 34px;
+    left: 4px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 11.93px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: center;
+    color: var(--icons-color);
+}

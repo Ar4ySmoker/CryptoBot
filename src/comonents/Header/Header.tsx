@@ -8,14 +8,14 @@ interface HeaderProps {
 export const Header = ({ closeText, svgIcon }: HeaderProps) => {
   return (
     <div className={style.header}>
-      <div>
+      <div className={style.items}>
         <p>{closeText}</p>
       </div>
       <div className={style.h1}>
         <span>Gift App</span>
         <span>mini app</span>
       </div>
-      <div>
+      <div className={style.items}>
         {svgIcon}
       </div>
     </div>

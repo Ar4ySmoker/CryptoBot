@@ -17,16 +17,19 @@ console.log("telegram", tg);
   return (
     <body>
     <Header closeText="Close" svgIcon={<ThreeDots />} />
-   <ButtonBar />
-   <TabBar />
    <HistoryItem type="buy" title="Delicius Cake" icon={historyIcon2}  amountOrRecipient='10' />
    <HistoryItem type="sent" title="Red Star" icon={historyIcon}  amountOrRecipient='Alicia' />
    <HistoryItem type="receive" title="Red Star" icon={historyIcon}  amountOrRecipient='Alicia' />
   <GiftHistoryItem avatar={defaultAvatar} type='sent' sender="Alicia" recipient="Mark" title={''} amountOrRecipient={''}/>
   <GiftHistoryItem avatar={defaultAvatar} type='buy' sender="Alicia" recipient="Mark" title={''} amountOrRecipient={''}/>
+  <GiftHistoryItem avatar={defaultAvatar} type='buy' sender="Alicia" recipient="Mark" title={''} amountOrRecipient={''}/>
+  <GiftHistoryItem avatar={defaultAvatar} type='buy' sender="Alicia" recipient="Mark" title={''} amountOrRecipient={''}/>
+  <GiftHistoryItem avatar={defaultAvatar} type='buy' sender="Alicia" recipient="Mark" title={''} amountOrRecipient={''}/>
+
 <LeaderBoardItem avatar={defaultAvatar} title="Alicia" amountOrRecipient={''} numGifts={10000} place="#10"/>
 <LeaderBoardItem avatar={defaultAvatar} title="Alicia" amountOrRecipient={''} numGifts={10000} place="🥇"/>
-
+<ButtonBar />
+<TabBar />
     </body>
   )
 }

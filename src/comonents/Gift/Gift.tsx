@@ -1,6 +1,6 @@
 import style from './style.module.css';
 import { Icons } from "../index";
-import GiftImg from "../../assets/icons/09.png"
+import GiftImg from "../../assets/icons/Cake.png"
 import { ButtonRounded } from '../ButtonRounded/ButtonRounded';
 export const Gift = ({score, title}: any) =>{
     return(

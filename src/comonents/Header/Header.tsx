@@ -2,10 +2,10 @@ import style from './style.module.css';
 
 interface HeaderProps {
   closeText: string;
-  svgIcon: React.ReactNode;
+  svgIcon: React.FC;
 }
 
-export const Header = ({ closeText, svgIcon }: HeaderProps) => {
+export const Header = ({ closeText, svgIcon: SvgIcon }: HeaderProps) => {
   return (
     <div className={style.header}>
       <div className={style.items}>
@@ -16,7 +16,7 @@ export const Header = ({ closeText, svgIcon }: HeaderProps) => {
         <span>mini app</span>
       </div>
       <div className={style.items}>
-        {svgIcon}
+        <SvgIcon/>
       </div>
     </div>
   );

@@ -1,0 +1,38 @@
+.button{
+    padding:8px 16px 0 16px;
+    /* background-color: var(--bg-tab-color); */
+    width: 100%;
+   
+}
+.button > button{
+position: absolute;
+top: 200px;
+left: 25.25px;
+padding: 6px 16px 6px 12px;
+border: none;
+width: 124px;
+height: 30px;
+border-radius: 100px ;
+background-color: var(--primary-color);
+font-size: var(--font-size-md);
+font-weight: var(--font-weight-md);
+line-height: var(--line-height-md);
+letter-spacing: var(--line-spacing-md);
+text-align: center;
+color: var(--white-color);
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.button > button> span{
+font-size: var(--font-size-xs);
+width: 80px;
+text-align: center;
+line-height:var(--line-height-xs) ;
+}
+
+.button > img{
+    width: 24px;
+    height: 24px;
+}
+

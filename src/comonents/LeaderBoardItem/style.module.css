@@ -1,0 +1,53 @@
+.item{
+    background-color: var(--white-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 393px;
+    height: 50px;
+    padding: 8px 16px;
+}
+.name{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding: 0 12px ;
+    width: 393px;
+    height: 38px;
+
+}
+.name > span{
+    color: var(--label-secondary-color);
+    font-size: var(--font-size-xs);
+    font-weight: var(--font-weight-xs);
+    line-height: var(--line-height-xs);
+    letter-spacing: var(--letter-spacing-xs);
+}
+.name > p{
+    color: var(--black-color);
+    font-size: var(--font-size-sm);
+    font-weight: var(--font-weight-sm);
+    line-height: var(--line-height-sm);
+    letter-spacing: var(--letter-spacing-sm);
+}   
+.price {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; 
+    width: max-content;
+    height: max-content;
+    font-size: var(--font-size-sm);
+    font-weight: var(--font-weight-sm);
+    line-height: var(--line-height-sm);
+    letter-spacing: var(--letter-spacing-sm);
+}
+.price > p{
+    color: var(--label-secondary-color);    
+}
+
+.blue{
+    font-size: var(--font-size-md);
+    font-weight: var(--font-weight-sm);
+    color: var(--accent-blue-color);
+}

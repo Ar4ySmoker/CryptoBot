@@ -8,7 +8,7 @@ import defaultAvatar from '/defaultAvatar.png';
 import { GiftHistoryItem } from './comonents/GiftHistoryItem/GiftHistoryItem';
 import { LeaderBoardItem } from './comonents/LeaderBoardItem/LeaderBoardItem';
 import { Icons } from './comonents';
-import { Gift } from './comonents/Gift/Gift';
+import { Gift, GiftInProfile, GiftPurchase } from './comonents/Gift/Gift';
 // @ts-ignore
 export const tg = window?.Telegram?.WebApp;
 
@@ -33,6 +33,8 @@ console.log("telegram", tg);
 
 <div>
 <Gift score={`${1} of ${10}K`} title={'Delicious Cake'}/>
+<GiftPurchase  title={'Delicious Cake'}/>
+<GiftInProfile score={`${1} of ${10}K`} title={'Delicious Cake'}/> 
 
 </div>
     </body>

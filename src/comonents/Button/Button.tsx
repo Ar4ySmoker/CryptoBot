@@ -15,3 +15,14 @@ export const Button = ({ label, icon: Icon }: ButtonProps) => {
         </div>
     );
 };
+
+export const ButtonRounded = ({ label, icon: Icon }: ButtonProps) => {
+    return (
+        <div className={style.buttonRounded}>
+            <button>
+                {Icon ? <Icon /> : null} 
+                <span>{label}</span>
+            </button>
+        </div>
+    );
+};

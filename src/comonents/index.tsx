@@ -1,4 +1,4 @@
-import { Box, BoxArchive, Eth, Gifts, Indicator, Laderboard, Magazine, Plan, Profile, Store, ThreeDots } from "../assets/svg";
+import { Box, BoxArchive, Eth, Gifts, Indicator, Laderboard, Magazine, Plan, Profile, Store, ThreeDots, Ton, Usdt } from "../assets/svg";
 
 export const Icons = {
     td: () => <ThreeDots/>,
@@ -12,4 +12,6 @@ export const Icons = {
     be: () => <BoxArchive/>,
     box: () => <Box/>,
     eth: () => <Eth/>,
+    ton: () => <Ton/>,
+    usdt: () => <Usdt/>
 }

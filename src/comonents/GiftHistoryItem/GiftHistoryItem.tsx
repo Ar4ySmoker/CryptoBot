@@ -2,7 +2,7 @@
 import React from 'react';
 import style from './style.module.css';
 import { Plan, Magazine } from '../../assets/svg'; // Импортируйте ваши бейджи
-import { HistoryAvatar } from '../HistoryAvatar/HistoryAvatar';
+import { Avatar } from '../Avatar/Avatar';
 
 interface ItemProps {
     avatar: string;
@@ -51,7 +51,7 @@ export const GiftHistoryItem: React.FC<ItemProps> = ({ avatar,  type, sender, re
     return ( 
         <div className={style.item}>
             <div>
-                <HistoryAvatar icon={avatar} Badge={Badge} backgroundColor={backgroundColor} />
+                <Avatar icon={avatar} Badge={Badge} backgroundColor={backgroundColor} />
             </div>
             <div className={style.name}>
             <span>

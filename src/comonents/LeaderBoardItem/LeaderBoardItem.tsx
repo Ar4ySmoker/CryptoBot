@@ -1,6 +1,6 @@
 // src/components/Item.tsx
 import React from 'react';
-import { HistoryAvatar } from '../HistoryAvatar/HistoryAvatar';
+import { Avatar } from '../Avatar/Avatar';
 import style from './style.module.css';
 import {Box} from '../../assets/svg';
 interface ItemProps {
@@ -17,7 +17,7 @@ export const LeaderBoardItem: React.FC<ItemProps> = ({ avatar, title, numGifts, 
     return ( 
         <div className={style.item}>
             <div>
-                <HistoryAvatar icon={avatar} Badge={undefined} backgroundColor={''}  />
+                <Avatar icon={avatar} Badge={undefined} backgroundColor={''}  />
             </div>
             <div className={style.name}>
             <p>

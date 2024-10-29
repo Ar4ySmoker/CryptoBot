@@ -5,7 +5,7 @@ interface HistoryIconProps {
     Badge?: React.ComponentType;
     backgroundColor: string; 
 }
-export const HistoryAvatar = ({ icon, Badge, backgroundColor }: HistoryIconProps) => {
+export const Avatar = ({ icon, Badge, backgroundColor }: HistoryIconProps) => {
     return ( 
         <div className={style.historyIcon}>
             <img src={icon} alt="history icon" />

@@ -5,7 +5,10 @@
     font-family: "Roboto", sans-serif;
 
 }
- 
+body{
+    width: 400px;
+    margin: auto  auto;
+}
 :root {
     --white-color: #FFFFFF;
     --black-color: #000000;

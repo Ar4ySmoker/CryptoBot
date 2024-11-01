@@ -4,6 +4,7 @@
   justify-content: space-between;
   padding: 16px;
   align-items: center;
+  width: 100%;
 }
 .header > div > p{
     color: var(--primary-color);

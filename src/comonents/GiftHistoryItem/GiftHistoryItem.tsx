@@ -59,7 +59,6 @@ export const GiftHistoryItem: React.FC<ItemProps> = ({ avatar,  type, sender, re
 </span>
                 <p>{displayText}</p>
             </div>
-            {/* <div className={style.price}><p>{displayText}</p></div>  */}
         </div>
     );
 };

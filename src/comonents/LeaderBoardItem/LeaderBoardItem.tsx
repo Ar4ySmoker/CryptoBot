@@ -16,15 +16,15 @@ export const LeaderBoardItem: React.FC<ItemProps> = ({ avatar, title, numGifts, 
  
     return ( 
         <div className={style.item}>
-            <div>
-                <Avatar icon={avatar} Badge={undefined} backgroundColor={''}  />
-            </div>
             <div className={style.name}>
+                <Avatar icon={avatar} Badge={undefined} backgroundColor={''}  />
+            <div className={style.title}>
             <p>
             {title}
             </p>
             <div className={style.blue}>
 <Box /> <span>{numGifts} gifts</span>
+            </div>
             </div>
             </div>
             <div className={style.price}><p>{place}</p></div> 
